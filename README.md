@@ -1,7 +1,9 @@
-# WifiCLIP
+# Wi-CLIP: Toward Zero-Shot Air Gesture Recognition Based on RF-Text Foundation Model
 
 ---
 Currently, we provide deep learning modeling code and preprocessed datasets.
+
+![](system_overview.jpg)
 
 ## instruction 
 
@@ -36,7 +38,11 @@ The BVP data for the corresponding gesture exists in the Data folder, please dow
 
 ### To use the current dataset with the training model ,please run
 
-> python src/WiFi-ZeroShot.py
+> python -m + Specific file name
+
+like:
+
+> python -m src/WiFi-ZeroShot
 
 
 
